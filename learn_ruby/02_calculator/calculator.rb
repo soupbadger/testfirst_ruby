@@ -23,7 +23,7 @@ def power(x, y)
 end
 
 def factorial(x)
-  total = 0
+  total = 1
   while x > 0
     total *= x
     x -= 1
