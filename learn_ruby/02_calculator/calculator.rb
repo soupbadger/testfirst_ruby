@@ -14,8 +14,12 @@ def sum(x)
   sum
 end
 
-def multiply(x, y)
-  x * y
+def multiply *numbers
+  total = 1
+  numbers.each do |num|
+    total *= num
+  end
+  total
 end
 
 def power(x, y)
